@@ -1,0 +1,7 @@
+x = int(input("Enter first number :"))
+y = int(input("Enter seacond number :"))
+x = x+y
+y = x-y
+x = x-y
+print("After swapping value of x is ",x)
+print("After swapping value of y is ",y)
