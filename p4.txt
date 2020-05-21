@@ -1,0 +1,6 @@
+c_p = float(input("Enter the cost price : "))
+s_p = float(input("Enter the selling price :"))
+profit = s_p - c_p
+new_selling_price = profit*1.05+c_p
+print("The profit is ",profit )
+print("New selling price after increasing profit by 5 % is ",new_selling_price)
