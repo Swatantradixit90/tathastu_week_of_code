@@ -1,0 +1,5 @@
+num = int(input("Enter the integer value : "))
+s = str(num)
+print("value after replacing 0 is " , s.replace("0","5"))
+
+

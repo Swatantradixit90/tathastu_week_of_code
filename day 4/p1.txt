@@ -1,0 +1,5 @@
+size = input("Enter the element in tuple seperated by space : ")
+userlist = size.split()
+Tuple1 = tuple(userlist)
+element = input("Enter the element whose occurrences you want to know: ")
+print("Tuple contains the element", Tuple1.count(element), "times")
