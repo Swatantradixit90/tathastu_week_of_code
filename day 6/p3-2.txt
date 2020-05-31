@@ -1,0 +1,15 @@
+size =int(input("Enter the size of list :"))
+list = []
+for x in range(size):
+    list.append(int(input("Enter the element "+str(x+1)+" in the list : ")))
+print('List is : ', l)
+list.sort()
+l1 = []
+for i in range(len(l)):
+    if l[i] > 0:
+        l1 = l[i:]
+        break
+for i in range(len(l1)):
+    if l1[i] != i + 1:
+        print('missing number is :', i + 1)
+        break

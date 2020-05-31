@@ -1,0 +1,6 @@
+size = int(input("Enter the size of list : "))
+list = []
+for i in range(size):
+    list.append(int(input("Enter the element "+str(i+1)+" in the list : ")))
+userlist = sorted(list,reverse=True)
+print("The maximum product is " ,userlist[0]*userlist[1]*userlist[2])

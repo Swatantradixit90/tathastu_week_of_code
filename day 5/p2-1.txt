@@ -1,0 +1,8 @@
+size = int(input("Enter the size of array : "))
+list = []
+for x in range(size):
+    list.append(int(input("Enter the elemenmt "+ str( x + 1 ) + " in the list")))
+    for i in range(size-1):
+        list[i] = max(list[i+1:])
+
+print(list)

@@ -1,0 +1,8 @@
+size = int(input("Enter the size of list : "))
+list = []
+for i in range(size):
+    list.append(int(input("Enter the element "+str(i+1)+" in the list : ")))
+k = int(input("Enter the value of k : "))
+userlist = sorted(list)
+a = k-1
+print(userlist[a])

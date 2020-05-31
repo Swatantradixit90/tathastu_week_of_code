@@ -1,0 +1,7 @@
+list = []
+k = int(input("Enter the value of k : "))
+for i in range(k):
+    list1 = input("Enter the values of list seperated by commas : ")
+    userlist = list1.split()
+    list = list+userlist
+print("The sorted list is : ",sorted(list))
